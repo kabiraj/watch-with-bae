@@ -1,0 +1,26 @@
+:root {
+    /* 🌸 Main background color - soft love feel */
+    --color-primary: #F9D5D3;  /* Soft Rose Pink - warm, comforting, background base */
+  
+    /* 🍑 Accent color for buttons or call-to-actions */
+    --color-accent1: #F28B82;  /* Coral Blush - playful, cheerful */
+  
+    /* 🍰 Light secondary background (cards, overlays) */
+    --color-accent2: #FEE3CB;  /* Peach Cream - subtle, cozy section backgrounds */
+  
+    /* 🌷 Hover states, highlights, or soft outlines */
+    --color-accent3: #C18C94;  /* Dusty Mauve - elegant, subtle boldness */
+  
+    /* 🪻 Secondary theme color - calming contrast (cards, boxes, borders) */
+    --color-secondary: #DCC6E0;  /* Lavender Mist - romantic, balanced */
+  
+    /* 🖤 Text for light backgrounds */
+    --text-dark: #4E4B4B;  /* Cocoa Grey - soft but readable on light backgrounds */
+  
+    /* 🤍 Text for dark or accent backgrounds (e.g. buttons) */
+    --text-light: #FAFAFA;  /* Snow White - clean and sharp on dark backgrounds */
+  
+    /* 🫧 Optional: soft shadow */
+    --box-shadow-soft: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
