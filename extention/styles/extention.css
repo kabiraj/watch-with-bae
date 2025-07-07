@@ -1,11 +1,4 @@
-:root {
-    --color-primary: #F9D5D3; /*background*/
-    --color-accent1: #F28B82; /*buttons*/
-    --text-light: #FAFAFA; /*button-text*/
-    --text-dark: #2D2D2D;
-  }
-
-  body{
+body{
     background-color: var(--color-primary);
     font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
@@ -32,12 +25,14 @@
   width: 18px;
   height: 18px;
 }
+
  .option-item {
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
+  align-items: center;
   gap: 12px;
   padding: 16px 20px;
   margin: 0;
+  height: 50px;
   border-top: 1px solid var(--border-color);
   color: var(--text-dark);
   cursor: pointer;
@@ -61,4 +56,16 @@
   transform: translateY(-1px) scale(1.01);
   box-shadow: 0 4px 15px rgba(242, 139, 130, 0.4);
   transition: all 0.1s ease;
+}
+
+.video-count {
+  background-color: var(--color-primary);
+  color: var(--text-dark);
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  padding: 8px;
+  height: 12.5px;
+  display: flex;
+  align-items: center;
 }

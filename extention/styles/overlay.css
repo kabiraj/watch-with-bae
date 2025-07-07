@@ -1,0 +1,145 @@
+/* Main overlay container */
+.overlay-container {
+    background: #FFF8F3;
+    color: #6B3A3A;
+    padding: 32px;
+    border-radius: 20px;
+    width: 50vw;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    border: 3px solid #F7B6B0;
+
+}
+
+/* Header section */
+.overlay-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(220, 198, 224, 0.6);
+}
+
+/* Title styling */
+.overlay-title {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6B3A3A;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+/* Close button */
+.overlay-close-btn {
+    background: #F19995;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    
+}
+
+.overlay-close-btn:hover {
+    background: #F19995;
+    transform: scale(1.05);
+    
+}
+
+.overlay-close-btn:active {
+    transform: scale(0.95);
+}
+
+/* Video list container */
+.overlay-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20x;
+}
+
+/* Video card */
+.video-card {
+    background: #FFE5E0;
+    border-radius: 16px;
+    margin: 10px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    border: 2px solid #F7B6B0;
+}
+
+.video-player{
+    border-radius: 5px;
+    
+    transition: all 0.2s ease;
+}
+
+/* Button - pill shaped, soft pink, brown text, pink border */
+.video-player-watch-now {
+    width: 140px;
+    height: 44px;
+    background-color: #FFE5E0;
+    color: #6B3A3A;
+    border: 2px solid #F7B6B0;
+    border-radius: 22px;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, border 0.2s, transform 0.15s;
+    outline: none;
+}
+
+.video-player-watch-now:hover {
+    background-color: #F7B6B0;
+    color: #6B3A3A;
+    border: 2px solid #F19995;
+    transform: scale(1.03);
+}
+
+.video-player-watch-now:active {
+    background-color: #F19995;
+    color: #6B3A3A;
+    border: 2px solid #F7B6B0;
+    transform: scale(0.97);
+}
+
+/* For any other buttons (like Stop) */
+.button, .overlay-btn {
+    width: 140px;
+    height: 44px;
+    background-color: #FFE5E0;
+    color: #6B3A3A;
+    border: 2px solid #F7B6B0;
+    border-radius: 22px;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, border 0.2s, transform 0.15s;
+
+    outline: none;
+}
+
+.button:hover, .overlay-btn:hover {
+    background-color: #F7B6B0;
+    color: #6B3A3A;
+    border: 2px solid #F19995;
+    transform: scale(1.03);
+}
+
+.button:active, .overlay-btn:active {
+    background-color: #F19995;
+    color: #6B3A3A;
+    border: 2px solid #F7B6B0;
+    transform: scale(0.97);
+}
